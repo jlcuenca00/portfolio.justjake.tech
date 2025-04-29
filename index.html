@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Just Jake | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0d1117;
+      color: #f0f6fc;
+    }
+    header {
+      background-color: #161b22;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #58a6ff;
+    }
+    nav a {
+      color: #c9d1d9;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #58a6ff;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #1f2937, #0d1117);
+    }
+    .hero h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.1em;
+      color: #8b949e;
+    }
+    .grid {
+      display: grid;
+      gap: 30px;
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .card {
+      background-color: #161b22;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #58a6ff;
+    }
+    .card p {
+      color: #c9d1d9;
+    }
+    .card a {
+      color: #8b949e;
+      text-decoration: none;
+    }
+    .card a:hover {
+      color: #58a6ff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #161b22;
+      color: #8b949e;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>portfolio.justjake.tech</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="https://blog.justjake.tech">Blog</a>
+      <a href="https://about.justjake.tech">About</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Things I’ve Built</h2>
+    <p>From side projects to serious builds—this is my evolving collection.</p>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h3>🔊 Lo-Fi Player</h3>
+      <p>A web-based lo-fi music player with ambient backgrounds and customizable playlists. Built with HTML5, JS, and Flask.</p>
+      <a href="#">View Project →</a>
+    </div>
+
+    <div class="card">
+      <h3>📦 E-Youth Learning System</h3>
+      <p>Gamified e-learning platform for students with level-ups, badges, and rankings. Designed for mobile-first engagement.</p>
+      <a href="#">Explore Demo →</a>
+    </div>
+
+    <div class="card">
+      <h3>🛒 NZ E-Commerce Backend</h3>
+      <p>Custom backend system for New Zealand-based stores. Built with PHP & MySQL, featuring dynamic staff & product modules.</p>
+      <a href="#">Case Study →</a>
+    </div>
+
+    <div class="card">
+      <h3>🎮 Terraria World Guide</h3>
+      <p>A full written and visual guide to my first Terraria world—includes boss tips, traps, and tricks. For fun & for the community.</p>
+      <a href="#">Read Blog →</a>
+    </div>
+
+    <div class="card">
+      <h3>🎙 Brightside FM</h3>
+      <p>College radio show branding + programming strategy with an interactive site mockup. All powered by student creativity.</p>
+      <a href="#">Behind the Scenes →</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 portfolio.justjake.tech — All works by Jake.
+  </footer>
+
+</body>
+</html>
